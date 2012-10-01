@@ -1,0 +1,35 @@
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    background: #fff;
+    border-left: 6px solid #D5652B;
+    border-right: 6px solid #D5652B;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+canvas.monster {
+    position: absolute;
+    z-index: -1;
+}
+
+canvas.monster.left {
+    left: 0;
+    -o-transform: translateX(-150px) rotate(-45deg);
+    -ms-transform: translateX(-150px) rotate(-45deg);
+    -moz-transform: translateX(-150px) rotate(-45deg);
+    -webkit-transform: translateX(-150px) rotate(-45deg);
+    transform: translateX(-150px) rotate(-45deg);
+}
+
+canvas.monster.right {
+    right: 0;
+    -o-transform: translateX(150px) rotate(45deg);
+    -ms-transform: translateX(150px) rotate(45deg);
+    -moz-transform: translateX(150px) rotate(45deg);
+    -webkit-transform: translateX(150px) rotate(45deg);
+    transform: translateX(150px) rotate(45deg);
+}
