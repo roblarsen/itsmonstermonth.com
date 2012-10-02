@@ -1,12 +1,12 @@
 (function($){
     $(document).ready(function(){
         var images = [
-            'http://monstermonth.bobholt.me/img/monsters/oct1.jpg',
-            'http://monstermonth.bobholt.me/img/monsters/oct3.jpg',
-            'http://monstermonth.bobholt.me/img/monsters/oct5.jpg',
-            'http://monstermonth.bobholt.me/img/monsters/oct10.jpg',
-            'http://monstermonth.bobholt.me/img/monsters/oct22.jpg',
-            'http://monstermonth.bobholt.me/img/monsters/oct29.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct1.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct3.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct5.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct10.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct22.jpg',
+            'http://monstermonth.bobholt.me/2011/img/monsters/oct29.jpg',
             'http://media.drunkenfist.com/304/wp-content/uploads/2011/10/smokin.png',
             'http://media.drunkenfist.com/304/wp-content/uploads/2011/10/zombie-zombie.png',
             'http://media.drunkenfist.com/304/wp-content/uploads/2011/10/pushead.png',
